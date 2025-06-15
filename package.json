@@ -1,0 +1,27 @@
+{
+  "name": "littlecat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "dev": "nodemon index.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@sapphire/framework": "^5.3.6",
+    "@sapphire/plugin-hmr": "^3.0.2",
+    "@sapphire/plugin-logger": "^4.0.2",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.5.0",
+    "node-cron": "^4.1.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
