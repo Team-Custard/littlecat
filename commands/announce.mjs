@@ -1,5 +1,5 @@
 import { Command } from '@sapphire/framework';
-import { EmbedBuilder, Message } from 'discord.js';
+import { EmbedBuilder, Message, Colors } from 'discord.js';
 
 export class FetchCommand extends Command {
   constructor(context, options) {
