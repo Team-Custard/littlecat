@@ -28,7 +28,7 @@ export async function parseFeed() {
         }
         );
 
-        parser.parseURL("https://rss.app/feeds/Ll4kl1YC2EXCfPDk.xml").then((feed) => {
+        /*parser.parseURL("https://rss.app/feeds/Ll4kl1YC2EXCfPDk.xml").then((feed) => {
             let embeds = [];
             const item = feed.items[0]; // Get the first item from the feed
             embeds.push({
@@ -47,7 +47,7 @@ export async function parseFeed() {
             container.logger.error("Failed to parse Contabo status RSS feed:", error);
         }
         );
-        container.logger.info('RSS feed parsed successfully.');
+        container.logger.info('RSS feed parsed successfully.');*/
          // Return 'ok' to indicate successful parsing
         
         return 'ok';
